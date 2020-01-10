@@ -6,6 +6,11 @@ This project is submitted to [Reproducibility Challenge @ NeurIPS 2019](https://
 ## Abstract
 Most state-of-the-arts classifiers assume a relatively balanced class distribution and equal mis-classification cost. Training with imbalanced data has encountered a significant difficulty of low attainable results. Although many previous work has addressed various strategies to tackle this issue, these techniques usually come with different drawbacks and the outcome is still very limited. Cao et al. introduced two new techniques, label-distribution-aware margin loss (LDAM) and deferred re-weighting(DRM), which have been claimed to acieve better performance gains over the existing techniques. In this work, we re-produced the baseline experiments reported in the authors' work with IMDB and CIFAR-10 benchmarks. We performed extensive hyper-parameter tuning on these models and outperformed the original reported results. We also proposed a general scheme for baseline improvement with learning rate step decay and triangular policy. Based on the improved results, we studied how different techniques affect the performance when learning imbalanced data, including class balanced re-weighting, class balanced re-sampling and borderline-SMOTE. 
 
+## Label-Distribution-Aware Margin Loss (LDAM) and Deferred Re-weighting(DRM)Schedule
+<p align="center">
+    <img src="/results/algo.png" width=90% height=90%>
+</p>
+
 ---
 
 [View the full report](https://github.com/dorhelium/NeurIPS/blob/master/results/reproducibility.pdf)
