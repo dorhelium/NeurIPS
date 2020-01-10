@@ -8,7 +8,7 @@ Most state-of-the-arts classifiers assume a relatively balanced class distributi
 
 ---
 
-[View the full report](https://github.com/dorhelium/modifiedMNISTclassification/blob/master/report.pdf)
+[View the full report](https://github.com/dorhelium/NeurIPS/blob/master/results/reproducibility.pdf)
 
 ---
 
