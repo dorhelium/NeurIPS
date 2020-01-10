@@ -13,7 +13,7 @@ In this work, we reproduced and inspected a subset of the baseline experiments i
 ERM: BatchSize = 128, Max Feature = 8000, Epoch = 2. Re-samping: BatchSize = 128, Max Feature = 10000, Epoch = 4. Re-weighting: BatchSize = 128, Max Feature = 10000, Epoch = 5. SMOTE: BatchSize = 128, Max Feature = 10000, Epoch = 3. Adam Optimizer with default setting. 
 <p float="center">
     <img src="/results/result1.png" >
-    <img src="/results/result2.png" >
+    <img src="/results/result2.png" width=80% height=80%>
 </p>
 
 
