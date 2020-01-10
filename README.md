@@ -8,15 +8,17 @@ Most state-of-the-arts classifiers assume a relatively balanced class distributi
 
 ## Experiment Result at a Glance
 
-### Parameter Setting and Results for IMDB experiments
+
+
+## Imbalanced CIFAR-10 Experiments Results
+<p float="center">
+    <img src="/results/re2.png" >
+</p>
+
+## Parameter Setting and Results for IMDB experiments
 ERM: BatchSize = 128, Max Feature = 8000, Epoch = 2. Re-samping: BatchSize = 128, Max Feature = 10000, Epoch = 4. Re-weighting: BatchSize = 128, Max Feature = 10000, Epoch = 5. SMOTE: BatchSize = 128, Max Feature = 10000, Epoch = 3. Adam Optimizer with default setting. 
 <p float="center">
     <img src="/results/re1.png" >
-</p>
-
-### Imbalanced CIFAR-10 Experiments Results
-<p float="center">
-    <img src="/results/re2.png" >
 </p>
 
 
